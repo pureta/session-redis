@@ -7,9 +7,17 @@
   "repository": "https://github.com/pureta/session-redis",
   "bugs": "https://github.com/pureta/session-redis/issues",
   "pureta": {
-    "main": "./plugin.js",
+    "main": "./index.js",
     "dependencies": []
   },
-  "dependencies": {},
-  "devDependencies": {}
+  "dependencies": {
+    "connect-redis": "^3.3.3",
+    "express-session": "^1.15.6",
+    "redis": "^2.8.0"
+  },
+  "devDependencies": {
+    "@types/connect-redis": "^0.0.7",
+    "@types/express-session": "^1.15.8",
+    "@types/redis": "^2.8.6"
+  }
 }
